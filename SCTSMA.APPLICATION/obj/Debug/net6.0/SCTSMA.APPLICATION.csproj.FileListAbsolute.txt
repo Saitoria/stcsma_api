@@ -1,0 +1,17 @@
+C:\Users\saron\Desktop\Desktop\Programming\WebDev\WebApi\SCTSMA.WEBAPP.API\SCTSMA.APPLICATION\bin\Debug\net6.0\SCTSMA.APPLICATION.deps.json
+C:\Users\saron\Desktop\Desktop\Programming\WebDev\WebApi\SCTSMA.WEBAPP.API\SCTSMA.APPLICATION\bin\Debug\net6.0\SCTSMA.APPLICATION.dll
+C:\Users\saron\Desktop\Desktop\Programming\WebDev\WebApi\SCTSMA.WEBAPP.API\SCTSMA.APPLICATION\bin\Debug\net6.0\SCTSMA.APPLICATION.pdb
+C:\Users\saron\Desktop\Desktop\Programming\WebDev\WebApi\SCTSMA.WEBAPP.API\SCTSMA.APPLICATION\bin\Debug\net6.0\SCTSMA.DOMAIN.dll
+C:\Users\saron\Desktop\Desktop\Programming\WebDev\WebApi\SCTSMA.WEBAPP.API\SCTSMA.APPLICATION\bin\Debug\net6.0\SCTSMA.DOMAIN.pdb
+C:\Users\saron\Desktop\Desktop\Programming\WebDev\WebApi\SCTSMA.WEBAPP.API\SCTSMA.APPLICATION\obj\Debug\net6.0\SCTSMA.APPLICATION.csproj.AssemblyReference.cache
+C:\Users\saron\Desktop\Desktop\Programming\WebDev\WebApi\SCTSMA.WEBAPP.API\SCTSMA.APPLICATION\obj\Debug\net6.0\SCTSMA.APPLICATION.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\saron\Desktop\Desktop\Programming\WebDev\WebApi\SCTSMA.WEBAPP.API\SCTSMA.APPLICATION\obj\Debug\net6.0\SCTSMA.APPLICATION.AssemblyInfoInputs.cache
+C:\Users\saron\Desktop\Desktop\Programming\WebDev\WebApi\SCTSMA.WEBAPP.API\SCTSMA.APPLICATION\obj\Debug\net6.0\SCTSMA.APPLICATION.AssemblyInfo.cs
+C:\Users\saron\Desktop\Desktop\Programming\WebDev\WebApi\SCTSMA.WEBAPP.API\SCTSMA.APPLICATION\obj\Debug\net6.0\SCTSMA.APPLICATION.csproj.CoreCompileInputs.cache
+C:\Users\saron\Desktop\Desktop\Programming\WebDev\WebApi\SCTSMA.WEBAPP.API\SCTSMA.APPLICATION\obj\Debug\net6.0\SCTSMA.A.74C84035.Up2Date
+C:\Users\saron\Desktop\Desktop\Programming\WebDev\WebApi\SCTSMA.WEBAPP.API\SCTSMA.APPLICATION\obj\Debug\net6.0\SCTSMA.APPLICATION.dll
+C:\Users\saron\Desktop\Desktop\Programming\WebDev\WebApi\SCTSMA.WEBAPP.API\SCTSMA.APPLICATION\obj\Debug\net6.0\refint\SCTSMA.APPLICATION.dll
+C:\Users\saron\Desktop\Desktop\Programming\WebDev\WebApi\SCTSMA.WEBAPP.API\SCTSMA.APPLICATION\obj\Debug\net6.0\SCTSMA.APPLICATION.pdb
+C:\Users\saron\Desktop\Desktop\Programming\WebDev\WebApi\SCTSMA.WEBAPP.API\SCTSMA.APPLICATION\obj\Debug\net6.0\ref\SCTSMA.APPLICATION.dll
+C:\Users\saron\Desktop\Desktop\Programming\WebDev\WebApi\SCTSMA.WEBAPP.API\SCTSMA.APPLICATION\bin\Debug\net6.0\SCTSMA.UTILS.dll
+C:\Users\saron\Desktop\Desktop\Programming\WebDev\WebApi\SCTSMA.WEBAPP.API\SCTSMA.APPLICATION\bin\Debug\net6.0\SCTSMA.UTILS.pdb

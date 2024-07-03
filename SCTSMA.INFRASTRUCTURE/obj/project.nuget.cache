@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "gm30neUVBE0=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\saron\\Desktop\\Desktop\\Programming\\WebDev\\WebApi\\SCTSMA.WEBAPP.API\\SCTSMA.INFRASTRUCTURE\\SCTSMA.INFRASTRUCTURE.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\saron\\.nuget\\packages\\dapper\\2.1.35\\dapper.2.1.35.nupkg.sha512",
+    "C:\\Users\\saron\\.nuget\\packages\\npgsql\\6.0.11\\npgsql.6.0.11.nupkg.sha512",
+    "C:\\Users\\saron\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

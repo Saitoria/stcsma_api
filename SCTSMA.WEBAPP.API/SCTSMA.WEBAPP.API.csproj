@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    <DocumentationFile>C:\Users\saron\Desktop\Desktop\Programming\WebDev\WebApi\SCTSMA.WEBAPP.API\DatabaseBackup\SCTSMA.WEBAPP.API.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <NoWarn>1701;1702;1591</NoWarn>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <NoWarn>1701;1702;1591</NoWarn>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="2.1.35" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SCTSMA.APPLICATION\SCTSMA.APPLICATION.csproj" />
+    <ProjectReference Include="..\SCTSMA.DOMAIN\SCTSMA.DOMAIN.csproj" />
+    <ProjectReference Include="..\SCTSMA.INFRASTRUCTURE\SCTSMA.INFRASTRUCTURE.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,347 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SCTSMA.WEBAPP.API</name>
+    </assembly>
+    <members>
+        <member name="T:SCTSMA.WEBAPP.API.Controllers.DisputeController">
+            <summary>
+            API Endpoint Controller for Dispute Management.
+            </summary>
+        </member>
+        <member name="M:SCTSMA.WEBAPP.API.Controllers.DisputeController.#ctor(SCTSMA.APPLICATION.IDisputeRepository)">
+            <summary>
+            Constructor for DisputeController.
+            </summary>
+            <param name="disputeRepository">The dispute repository instance.</param>
+        </member>
+        <member name="M:SCTSMA.WEBAPP.API.Controllers.DisputeController.GetAllDisputes">
+            <summary>
+            API endpoint for retrieving all disputes.
+            </summary>
+            <returns>The response with the list of all disputes.</returns>
+            <response code="200">Successfully retrieved disputes.</response>
+            <response code="400">Invalid request data.</response>
+        </member>
+        <member name="M:SCTSMA.WEBAPP.API.Controllers.DisputeController.GetDisputeById(System.Int32)">
+            <summary>
+            API endpoint for retrieving a dispute by its ID.
+            </summary>
+            <param name="dispute_id">The ID of the dispute.</param>
+            <returns>The response with the dispute details.</returns>
+            <response code="200">Successfully retrieved the dispute.</response>
+            <response code="400">Invalid request data.</response>
+        </member>
+        <member name="M:SCTSMA.WEBAPP.API.Controllers.DisputeController.GetDisputesByCustomerPhone(System.String)">
+            <summary>
+            API endpoint for retrieving disputes by customer phone number.
+            </summary>
+            <param name="customer_phone">The customer's phone number.</param>
+            <returns>The response with the list of disputes for the given customer phone number.</returns>
+            <response code="200">Successfully retrieved disputes.</response>
+            <response code="400">Invalid request data.</response>
+        </member>
+        <member name="M:SCTSMA.WEBAPP.API.Controllers.DisputeController.GetDisputesBySellerPhone(System.String)">
+            <summary>
+            API endpoint for retrieving disputes by seller phone number.
+            </summary>
+            <param name="seller_phone">The seller's phone number.</param>
+            <returns>The response with the list of disputes for the given seller phone number.</returns>
+            <response code="200">Successfully retrieved disputes.</response>
+            <response code="400">Invalid request data.</response>
+        </member>
+        <member name="M:SCTSMA.WEBAPP.API.Controllers.DisputeController.CreateDispute(SCTSMA.DOMAIN.Models.Dispute.DisputeRequestModel)">
+            <summary>
+            API endpoint for creating a new dispute.
+            </summary>
+            <param name="disputeRequestModel">The dispute details.</param>
+            <returns>The response with a success status.</returns>
+            <response code="200">Dispute created successfully.</response>
+            <response code="400">Invalid request data.</response>
+        </member>
+        <member name="M:SCTSMA.WEBAPP.API.Controllers.DisputeController.UpdateDispute(SCTSMA.DOMAIN.Models.Dispute.DisputeRequestModel)">
+            <summary>
+            API endpoint for updating an existing dispute.
+            </summary>
+            <param name="disputeRequestModel">The updated dispute details.</param>
+            <returns>The response with a success status.</returns>
+            <response code="200">Dispute updated successfully.</response>
+            <response code="400">Invalid request data.</response>
+        </member>
+        <member name="M:SCTSMA.WEBAPP.API.Controllers.DisputeController.DeleteDispute(System.Int32)">
+            <summary>
+            API endpoint for deleting a dispute.
+            </summary>
+            <param name="dispute_id">The ID of the dispute to delete.</param>
+            <returns>The response with a success status.</returns>
+            <response code="200">Dispute deleted successfully.</response>
+            <response code="400">Invalid request data.</response>
+        </member>
+        <member name="T:SCTSMA.WEBAPP.API.Controllers.OrderController">
+            <summary>
+            API Endpoint Controller for Order Management.
+            </summary>
+        </member>
+        <member name="M:SCTSMA.WEBAPP.API.Controllers.OrderController.#ctor(SCTSMA.APPLICATION.IOrderRepository)">
+            <summary>
+            Constructor for OrderController.
+            </summary>
+            <param name="orderRepository">The order repository instance.</param>
+        </member>
+        <member name="M:SCTSMA.WEBAPP.API.Controllers.OrderController.GetAllOrders">
+            <summary>
+            API endpoint for retrieving all orders.
+            </summary>
+            <returns>The response with list of all orders.</returns>
+            <response code="200">Successfully retrieved orders.</response>
+            <response code="400">Invalid request data.</response>
+        </member>
+        <member name="M:SCTSMA.WEBAPP.API.Controllers.OrderController.GetOrdersByCustomerPhone(System.String)">
+            <summary>
+            API endpoint for retrieving orders by customer phone number.
+            </summary>
+            <param name="customerPhone">The customer's phone number.</param>
+            <returns>The response with the list of orders for the given customer phone number.</returns>
+            <response code="200">Successfully retrieved orders.</response>
+            <response code="400">Invalid request data.</response>
+        </member>
+        <member name="M:SCTSMA.WEBAPP.API.Controllers.OrderController.GetOrdersBySellerPhone(System.String)">
+            <summary>
+            API endpoint for retrieving orders by seller phone number.
+            </summary>
+            <param name="sellerPhone">The seller's phone number.</param>
+            <returns>The response with the list of orders for the given seller phone number.</returns>
+            <response code="200">Successfully retrieved orders.</response>
+            <response code="400">Invalid request data.</response>
+        </member>
+        <member name="M:SCTSMA.WEBAPP.API.Controllers.OrderController.CreateOrder(SCTSMA.DOMAIN.Models.Order.OrderRequestModel)">
+            <summary>
+            API endpoint for creating a new order.
+            </summary>
+            <param name="orderRequestModel">The order details.</param>
+            <returns>The response with a success status.</returns>
+            <response code="200">Order created successfully.</response>
+            <response code="400">Invalid request data.</response>
+        </member>
+        <member name="M:SCTSMA.WEBAPP.API.Controllers.OrderController.DeleteOrder(SCTSMA.DOMAIN.Models.Order.OrderRequestModel)">
+            <summary>
+            API endpoint for deleting an order.
+            </summary>
+            <param name="orderRequestModel">The order details.</param>
+            <returns>The response with a success status.</returns>
+            <response code="200">Order deleted successfully.</response>
+            <response code="400">Invalid request data.</response>
+        </member>
+        <member name="T:SCTSMA.WEBAPP.API.Controllers.PaymentController">
+            <summary>
+            API Endpoint Controller for Payment Management.
+            </summary>
+        </member>
+        <member name="M:SCTSMA.WEBAPP.API.Controllers.PaymentController.#ctor(SCTSMA.APPLICATION.IPaymentRepository)">
+            <summary>
+            Constructor for PaymentController.
+            </summary>
+            <param name="paymentRepository">The payment repository instance.</param>
+        </member>
+        <member name="M:SCTSMA.WEBAPP.API.Controllers.PaymentController.GetAllPayments">
+            <summary>
+            API endpoint for retrieving all payments.
+            </summary>
+            <returns>The response with list of all payments.</returns>
+            <response code="200">Successfully retrieved payments.</response>
+            <response code="400">Invalid request data.</response>
+        </member>
+        <member name="M:SCTSMA.WEBAPP.API.Controllers.PaymentController.GetPaymentByCustomer(System.String)">
+            <summary>
+            API endpoint for retrieving payments by customer phone number.
+            </summary>
+            <param name="customerPhone">The customer's phone number.</param>
+            <returns>The response with the list of payments for the given customer phone number.</returns>
+            <response code="200">Successfully retrieved payments.</response>
+            <response code="400">Invalid request data.</response>
+        </member>
+        <member name="M:SCTSMA.WEBAPP.API.Controllers.PaymentController.GetPaymentByProvider(System.String)">
+            <summary>
+            API endpoint for retrieving payments by payment provider phone number.
+            </summary>
+            <param name="paymentProviderPhone">The payment provider's phone number.</param>
+            <returns>The response with the list of payments for the given payment provider phone number.</returns>
+            <response code="200">Successfully retrieved payments.</response>
+            <response code="400">Invalid request data.</response>
+        </member>
+        <member name="M:SCTSMA.WEBAPP.API.Controllers.PaymentController.GetPaymentBySeller(System.String)">
+            <summary>
+            API endpoint for retrieving payments by seller phone number.
+            </summary>
+            <param name="sellerPhone">The seller's phone number.</param>
+            <returns>The response with the list of payments for the given seller phone number.</returns>
+            <response code="200">Successfully retrieved payments.</response>
+            <response code="400">Invalid request data.</response>
+        </member>
+        <member name="M:SCTSMA.WEBAPP.API.Controllers.PaymentController.CreatePayment(SCTSMA.DOMAIN.Models.Payment.PaymentRequestModel)">
+            <summary>
+            API endpoint for creating a new payment.
+            </summary>
+            <param name="paymentRequestModel">The payment details.</param>
+            <returns>The response with a success status.</returns>
+            <response code="200">Payment created successfully.</response>
+            <response code="400">Invalid request data.</response>
+        </member>
+        <member name="M:SCTSMA.WEBAPP.API.Controllers.PaymentController.UpdatePayment(SCTSMA.DOMAIN.Models.Payment.PaymentRequestModel)">
+            <summary>
+            API endpoint for updating an existing payment.
+            </summary>
+            <param name="paymentRequestModel">The updated payment details.</param>
+            <returns>The response with a success status.</returns>
+            <response code="200">Payment updated successfully.</response>
+            <response code="400">Invalid request data.</response>
+        </member>
+        <member name="T:SCTSMA.WEBAPP.API.Controllers.ProductController">
+            <summary>
+            API Endpoint Controller for Product Management.
+            </summary>
+        </member>
+        <member name="M:SCTSMA.WEBAPP.API.Controllers.ProductController.#ctor(SCTSMA.APPLICATION.IProductRepository)">
+            <summary>
+            Constructor for ProductController.
+            </summary>
+            <param name="productRepository">The product repository instance.</param>
+        </member>
+        <member name="M:SCTSMA.WEBAPP.API.Controllers.ProductController.GetAllProducts">
+            <summary>
+            API endpoint for retrieving all products.
+            </summary>
+            <returns>The response with list of all products.</returns>
+            <response code="200">Successfully retrieved products.</response>
+            <response code="400">Invalid request data.</response>
+        </member>
+        <member name="M:SCTSMA.WEBAPP.API.Controllers.ProductController.GetProductById(System.Int32)">
+            <summary>
+            API endpoint for retrieving a product by its ID.
+            </summary>
+            <param name="productId">The ID of the product.</param>
+            <returns>The response with the product details.</returns>
+            <response code="200">Successfully retrieved the product.</response>
+            <response code="400">Invalid request data.</response>
+        </member>
+        <member name="M:SCTSMA.WEBAPP.API.Controllers.ProductController.GetProductsBySellerPhone(System.String)">
+            <summary>
+            API endpoint for retrieving products by seller phone number.
+            </summary>
+            <param name="sellerPhone">The seller's phone number.</param>
+            <returns>The response with the list of products for the given seller phone number.</returns>
+            <response code="200">Successfully retrieved products.</response>
+            <response code="400">Invalid request data.</response>
+        </member>
+        <member name="M:SCTSMA.WEBAPP.API.Controllers.ProductController.CreateProduct(SCTSMA.DOMAIN.Models.Product.ProductModel)">
+            <summary>
+            API endpoint for creating a new product.
+            </summary>
+            <param name="productModel">The product details.</param>
+            <returns>The response with a success status.</returns>
+            <response code="200">Product created successfully.</response>
+            <response code="400">Invalid request data.</response>
+        </member>
+        <member name="M:SCTSMA.WEBAPP.API.Controllers.ProductController.UpdateProduct(SCTSMA.DOMAIN.Models.Product.ProductModel)">
+            <summary>
+            API endpoint for updating an existing product.
+            </summary>
+            <param name="productModel">The updated product details.</param>
+            <returns>The response with a success status.</returns>
+            <response code="200">Product updated successfully.</response>
+            <response code="400">Invalid request data.</response>
+        </member>
+        <member name="T:SCTSMA.WEBAPP.API.Controllers.RoleController">
+            <summary>
+            API Endpoint Controller for Role Management.
+            </summary>
+        </member>
+        <member name="M:SCTSMA.WEBAPP.API.Controllers.RoleController.GetRoles">
+            <summary>
+            API endpoint for displaying all roles.
+            </summary>
+            <returns>The response with list of all roles.</returns>
+            <response code="200">Successfully retrieved roles.</response>
+            <response code="400">Invalid request data.</response>
+        </member>
+        <member name="T:SCTSMA.WEBAPP.API.Controllers.StatusController">
+            <summary>
+            API Endpoint Controller for Status Management.
+            </summary>
+        </member>
+        <member name="M:SCTSMA.WEBAPP.API.Controllers.StatusController.GetAllstatuses">
+            <summary>
+            API endpoint for displaying all statuses.
+            </summary>
+            <returns>The response with list of all statuses.</returns>
+            <response code="200">Successfully retrieved statuses.</response>
+            <response code="400">Invalid request data.</response>
+        </member>
+        <member name="T:SCTSMA.WEBAPP.API.Controllers.UserController">
+            <summary>
+            API Endpoint Controller for User Management.
+            </summary>
+        </member>
+        <member name="M:SCTSMA.WEBAPP.API.Controllers.UserController.GetUsers">
+            <summary>
+            API endpoint for displaying all users.
+            </summary>
+            <returns>The response with list of all users.</returns>
+            <response code="200">Successfully retrieved users.</response>
+            <response code="400">Invalid request data.</response>
+        </member>
+        <member name="M:SCTSMA.WEBAPP.API.Controllers.UserController.GetUsersByRoleId(System.Int32)">
+            <summary>
+            API endpoint for displaying users by their role.
+            </summary>
+            <returns>The response will list users by their role_id.</returns>
+            <response code="200">Successfully retrieved users.</response>
+            <response code="400">Invalid request data.</response>
+        </member>
+        <member name="M:SCTSMA.WEBAPP.API.Controllers.UserController.AddUser(SCTSMA.DOMAIN.Models.User.UserModel)">
+            <summary>
+            API endpoint for adding a new user.
+            </summary>
+            <param name="UserModel">The user model.</param>
+            <returns>The response with a success status.</returns>
+            <response code="200">User added successfully.</response>
+            <response code="400">Invalid request data.</response>
+        </member>
+        <member name="M:SCTSMA.WEBAPP.API.Controllers.UserController.LoginUser(SCTSMA.DOMAIN.Models.User.UserLoginRqModel)">
+            <summary>
+            API endpoint for user login.
+            </summary>
+            <param name="userLoginRqModel">The user login request model.</param>
+            <returns>The response with the user details and role name.</returns>
+            <response code="200">User logged in successfully.</response>
+            <response code="400">Invalid phone number or password.</response>
+        </member>
+        <member name="M:SCTSMA.WEBAPP.API.Controllers.UserController.SignupUser(SCTSMA.DOMAIN.Models.User.UserAuthModel)">
+            <summary>
+            API endpoint for signing up a new user.
+            </summary>
+            <param name="userAuthModel">The user authentication model.</param>
+            <returns>The response with a success status.</returns>
+            <response code="200">User signed up successfully.</response>
+            <response code="400">Invalid request data.</response>
+        </member>
+        <member name="M:SCTSMA.WEBAPP.API.Controllers.UserController.SignupBusinessOwner(SCTSMA.DOMAIN.Models.User.BusinessOwnerAuthModel)">
+            <summary>
+            API endpoint for signing up a new business owner.
+            </summary>
+            <param name="businessOwnerAuthModel">The business owner authentication model.</param>
+            <returns>The response with a success status.</returns>
+            <response code="200">Business owner signed up successfully.</response>
+            <response code="400">Invalid request data.</response>
+        </member>
+        <member name="M:SCTSMA.WEBAPP.API.Controllers.UserController.DeleteUser(System.String)">
+            <summary>
+            API endpoint for deleting a user by phone number.
+            </summary>
+            <param name="phone_number">The phone number of the user to delete.</param>
+            <returns>The response with a success status.</returns>
+            <response code="200">User deleted successfully.</response>
+            <response code="400">Invalid request data.</response>
+        </member>
+    </members>
+</doc>

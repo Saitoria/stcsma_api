@@ -1,0 +1,12 @@
+C:\Users\saron\Desktop\Desktop\Programming\WebDev\WebApi\SCTSMA.WEBAPP.API\SCTSMA.DOMAIN\bin\Debug\net6.0\SCTSMA.DOMAIN.deps.json
+C:\Users\saron\Desktop\Desktop\Programming\WebDev\WebApi\SCTSMA.WEBAPP.API\SCTSMA.DOMAIN\bin\Debug\net6.0\SCTSMA.DOMAIN.dll
+C:\Users\saron\Desktop\Desktop\Programming\WebDev\WebApi\SCTSMA.WEBAPP.API\SCTSMA.DOMAIN\bin\Debug\net6.0\SCTSMA.DOMAIN.pdb
+C:\Users\saron\Desktop\Desktop\Programming\WebDev\WebApi\SCTSMA.WEBAPP.API\SCTSMA.DOMAIN\obj\Debug\net6.0\SCTSMA.DOMAIN.csproj.AssemblyReference.cache
+C:\Users\saron\Desktop\Desktop\Programming\WebDev\WebApi\SCTSMA.WEBAPP.API\SCTSMA.DOMAIN\obj\Debug\net6.0\SCTSMA.DOMAIN.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\saron\Desktop\Desktop\Programming\WebDev\WebApi\SCTSMA.WEBAPP.API\SCTSMA.DOMAIN\obj\Debug\net6.0\SCTSMA.DOMAIN.AssemblyInfoInputs.cache
+C:\Users\saron\Desktop\Desktop\Programming\WebDev\WebApi\SCTSMA.WEBAPP.API\SCTSMA.DOMAIN\obj\Debug\net6.0\SCTSMA.DOMAIN.AssemblyInfo.cs
+C:\Users\saron\Desktop\Desktop\Programming\WebDev\WebApi\SCTSMA.WEBAPP.API\SCTSMA.DOMAIN\obj\Debug\net6.0\SCTSMA.DOMAIN.csproj.CoreCompileInputs.cache
+C:\Users\saron\Desktop\Desktop\Programming\WebDev\WebApi\SCTSMA.WEBAPP.API\SCTSMA.DOMAIN\obj\Debug\net6.0\SCTSMA.DOMAIN.dll
+C:\Users\saron\Desktop\Desktop\Programming\WebDev\WebApi\SCTSMA.WEBAPP.API\SCTSMA.DOMAIN\obj\Debug\net6.0\refint\SCTSMA.DOMAIN.dll
+C:\Users\saron\Desktop\Desktop\Programming\WebDev\WebApi\SCTSMA.WEBAPP.API\SCTSMA.DOMAIN\obj\Debug\net6.0\SCTSMA.DOMAIN.pdb
+C:\Users\saron\Desktop\Desktop\Programming\WebDev\WebApi\SCTSMA.WEBAPP.API\SCTSMA.DOMAIN\obj\Debug\net6.0\ref\SCTSMA.DOMAIN.dll

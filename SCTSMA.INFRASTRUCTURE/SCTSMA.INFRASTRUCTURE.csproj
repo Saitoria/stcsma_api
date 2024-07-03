@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="2.1.35" />
+    <PackageReference Include="Npgsql" Version="6.0.11" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SCTSMA.APPLICATION\SCTSMA.APPLICATION.csproj" />
+    <ProjectReference Include="..\SCTSMA.CONFIG\SCTSMA.CONFIG.csproj" />
+    <ProjectReference Include="..\SCTSMA.UTILS\SCTSMA.UTILS.csproj" />
+  </ItemGroup>
+
+</Project>

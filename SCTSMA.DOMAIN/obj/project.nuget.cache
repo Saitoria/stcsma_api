@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "DkrmIHy/2B8=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\saron\\Desktop\\Desktop\\Programming\\WebDev\\WebApi\\SCTSMA.WEBAPP.API\\SCTSMA.DOMAIN\\SCTSMA.DOMAIN.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\saron\\.nuget\\packages\\dapper\\2.1.35\\dapper.2.1.35.nupkg.sha512"
+  ],
+  "logs": []
+}
